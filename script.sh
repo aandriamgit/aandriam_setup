@@ -6,6 +6,7 @@ echo "[ ]checking for [kitty Binary]"
 echo "[ ]checking for [kitty config]"
 if [ ! -d "$HOME/.oh-my-zsh" ]; then
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+fi
 clear
 echo "[✅]ok: [Oh My Zsh] !"
 echo "[ ]checking for [command_sh]"
