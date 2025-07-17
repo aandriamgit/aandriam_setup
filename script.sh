@@ -3,7 +3,7 @@ clear
 echo "[ ]checking for [oh my zsh]"
 echo "[ ]checking for [walli]"
 echo "[ ]checking for [command_sh]"
-echo "[ ]checking for [kitty]"
+echo "[ ]checking for [kitty-nvim]"
 echo "[ ]checking for [setup_dep]"
 echo "[ ]checking for [gnome_term]"
 uninstall_oh_my_zsh
@@ -14,7 +14,7 @@ clear
 echo "[✅]ok: [Oh My Zsh] !"
 echo "[ ]checking for [walli]"
 echo "[ ]checking for [command_sh]"
-echo "[ ]checking for [kitty]"
+echo "[ ]checking for [kitty-nvim]"
 echo "[ ]checking for [setup_dep]"
 echo "[ ]checking for [gnome_term]"
 rm -rf ~/Pictures/walli
@@ -23,7 +23,7 @@ clear
 echo "[✅]ok: [Oh My Zsh] !"
 echo "[✅]ok: [walli]"
 echo "[ ]checking for [command_sh]"
-echo "[ ]checking for [kitty]"
+echo "[ ]checking for [kitty-nvim]"
 echo "[ ]checking for [setup_dep]"
 echo "[ ]checking for [gnome_term]"
 rm -rf ~/command_sh/
@@ -32,7 +32,7 @@ clear
 echo "[✅]ok: [Oh My Zsh]"
 echo "[✅]ok: [walli]"
 echo "[✅]ok: [command_sh]"
-echo "[ ]checking for [kitty]"
+echo "[ ]checking for [kitty-nvim]"
 echo "[ ]checking for [setup_dep]"
 echo "[ ]checking for [gnome_term]"
 curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
@@ -40,11 +40,13 @@ echo "_kitty installer OK"
 rm -rf ~/.config/kitty/
 git clone git@github.com:aandriamgit/kitty.git ~/.config/kitty
 echo "_kitty config OK"
+rm -rf ~/.config/nvim
+git clone git@github.com:aandriamgit/nvim.git ~/.config/nvim
 clear
 echo "[✅]ok: [Oh My Zsh]"
 echo "[✅]ok: [walli]"
 echo "[✅]ok: [command_sh]"
-echo "[✅]ok: [kitty]"
+echo "[✅]ok: [kitty-nvim]"
 echo "[ ]checking for [setup_dep]"
 echo "[ ]checking for [gnome_term]"
 rm -rf ~/setup_dep
@@ -66,7 +68,7 @@ clear
 echo "[✅]ok: [Oh My Zsh]"
 echo "[✅]ok: [walli]"
 echo "[✅]ok: [command_sh]"
-echo "[✅]ok: [kitty]"
+echo "[✅]ok: [kitty-nvim]"
 echo "[✅]ok: [setup_dep]"
 echo "[ ]checking for [gnome_term]"
 curl -L https://raw.githubusercontent.com/catppuccin/gnome-terminal/v1.0.0/uninstall.py | python3 -
@@ -75,7 +77,7 @@ clear
 echo "[✅]ok: [Oh My Zsh]"
 echo "[✅]ok: [walli]"
 echo "[✅]ok: [command_sh]"
-echo "[✅]ok: [kitty]"
+echo "[✅]ok: [kitty-nvim]"
 echo "[✅]ok: [setup_dep]"
 echo "[✅]ok: [gnome-term]"
 echo ""
