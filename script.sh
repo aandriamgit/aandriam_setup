@@ -48,7 +48,7 @@ echo "[✅]ok: [kitty]"
 echo "[ ]checking for [setup_dep]"
 echo "[ ]checking for [gnome_term]"
 rm -rf ~/setup_dep
-git clone git@github.com:aandriamgit/setup_dep.git
+git clone git@github.com:aandriamgit/setup_dep.git ~/setup_dep
 rm -rf ~/.themes 
 mkdir ~/.themes
 unzip ~/setup_dep/dotthemes/Catppuccin-Dark-Macchiato-BL-MB.zip -d ~/.themes
@@ -78,7 +78,9 @@ echo "[✅]ok: [command_sh]"
 echo "[✅]ok: [kitty]"
 echo "[✅]ok: [setup_dep]"
 echo "[✅]ok: [gnome-term]"
-echo "\nCongrats Aina, now dont forget to"
+echo ""
+echo "Congrats Aina, now dont forget to"
+echo ""
 echo "() Alt+F2 r"
 echo "() Custom shortcuts for kitty to be ctrl+alt+t"
 echo "() Apply the font from ~/setup_dep/JetBrainsMonoNerdFont-Regular.ttf"
