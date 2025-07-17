@@ -4,9 +4,7 @@ echo "[ ]checking for [oh my zsh]"
 echo "[ ]checking for [command_sh]"
 echo "[ ]checking for [kitty Binary]"
 echo "[ ]checking for [kitty config]"
-if [ ! -d "$HOME/.oh-my-zsh" ]; then
-    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-fi
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 clear
 echo "[✅]ok: [Oh My Zsh] !"
 echo "[ ]checking for [command_sh]"
