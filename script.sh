@@ -6,6 +6,7 @@ echo "[ ]checking for [kitty Binary]"
 echo "[ ]checking for [kitty config]"
 uninstall_oh_my_zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 clear
 echo "[✅]ok: [Oh My Zsh] !"
 echo "[ ]checking for [command_sh]"
